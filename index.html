@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    
+    <div id="left-side">
+
+    </div>
+    <div id="right-side">
+        <div class="top">
+            <div class="top-top">
+                <p>This is not a real online service! You
+                    know you need something like this in 
+                    your life to help you realize your 
+                    deepest dreams. Sign up <em>now</em>
+                    to get started.
+                </p>
+            </div>
+            <div class="top-bottom">
+                <p>You <em>know</em> you want to.</p>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="mid-top">
+                <p>Let's do this!</p>
+            </div>
+            <div class="entries">
+                <form action="example.com/path" method="post">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name">
+                </form>
+                <form action="example.com/path" method="post">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name">
+                </form>
+                <form action="example.com/path" method="post">
+                    <label for="user_email">Email Address:</label>
+                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                </form>
+                <form action="example.com/path" method="post">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="text" id="phone_number" name="phone_number" required pattern="\d{3}-\d{3}-\d{4}"  placeholder="XXX-XXX-XXXX">
+                </form>
+                <form action="example.com/path" method="post">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </form>
+                <form action="example.com/path" method="post">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottom-top">
+                <button>Create Account</button>
+            </div>
+            <div class="bottom-bottom">
+                <p>Already have an account? <link rel="Log in" href="google.com"/></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
