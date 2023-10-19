@@ -1,0 +1,12 @@
+#main {
+    display: flex;
+}
+
+#left-side {
+    display: flex;
+}
+
+img {
+    height: 1000 px;
+    width: 500 px;
+}
