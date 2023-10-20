@@ -4,9 +4,62 @@
 
 #left-side {
     display: flex;
+    width: 33%;
+    flex-wrap: nowrap;
+}
+
+#right-side {
+    display: flex;
+    width: 67%;
+    flex-direction: column;
 }
 
 img {
-    height: 1000 px;
-    width: 500 px;
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
 }
+
+.top, .bottom {
+    display: flex;
+    height: 33%;
+    flex-direction: column;
+    flex: 1;
+    background-color: lightgray;
+}
+
+.middle {
+    display: flex;
+    height: 34%;
+}
+
+.top-top {
+    display: flex;
+    flex: 1;
+}
+
+.top-bottom {
+    display: flex;
+    flex: 1;
+}
+
+.bottom-top {
+    display: flex;
+    flex: 1;
+}
+.bottom-bottom {
+    display: flex;
+    flex: 1;
+}
+
+.entries-top, .entries-mid, .entries-top {
+    display: flex;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    background-color: #596D48;
+    color: #E5E7EB;
+    border-radius: 5px;
+ }
