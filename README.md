@@ -1,2 +1,3 @@
 # sign-up-form
-A basic sign-up form template
+A basic sign-up form template.
+The first copy was completed to the best of my understanding and ability for the first time on 10/24/2023 at 1:39 AM. Elements are on the page as they are on the finished pic on the assignment sheet. One thing changed by me is having a darker gray background for the top and bottom. I think it looks better. I couldn't get the blue border to appear when focused on an element, and I ignored most of what was said about password validation because there's no reason or way, that I found, to validate it. So it'll stay as it is for now. Other than those things I think it looks pretty good for my first time doing something like this.
